@@ -10,6 +10,7 @@ import RenderWithTimer from './components/RenderWithTimer';
 import RenderWithTimer2 from './components/RenderWithTimer2';
 import AddItem from './components/AddItem';
 import ApiCall from './components/ApiCall';
+import ClearInputRef from './components/ClearInputRef';
 
 // useRef just like useState persists a value across renders
 // but unlike useState it does not trigger a re-render of
@@ -52,6 +53,10 @@ function App() {
 			<br />
 			<br />
 			<ApiCall />
+			<br />
+			<br />
+			<br />
+			<ClearInputRef />
 		</div>
 	);
 }
